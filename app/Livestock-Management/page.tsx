@@ -337,7 +337,7 @@ export default function LivestockManagement() {
 
 
       {/* FEATURES */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#d0fae5] rounded-4xl mx-4">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Everything You Need</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">

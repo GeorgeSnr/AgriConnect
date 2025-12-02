@@ -203,18 +203,18 @@ export default function MarketPrices() {
               {/* Image Card */}
               <div className="relative">
                 <div
-                  className={`absolute -inset-4 bg-gradient-to-r ${currentTab.gradient} opacity-15 blur-xl rounded-3xl`}
+                  className={`absolute -inset-4 bg-linear-to-r ${currentTab.gradient} opacity-15 blur-xl rounded-3xl`}
                 ></div>
                 <div className="relative overflow-hidden rounded-2xl shadow-xl">
-                  <img
+                  <Image width={60} height={60}
                     src={currentTab.image}
                     alt={`${currentTab.name} market`}
                     className="w-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-gray-900/80 via-gray-900/40 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6">
                     <div
-                      className={`inline-flex items-center rounded-full bg-gradient-to-r ${currentTab.gradient} px-3 py-1 text-sm font-medium text-white mb-2`}
+                      className={`inline-flex items-center rounded-full bg-linear-to-r ${currentTab.gradient} px-3 py-1 text-sm font-medium text-white mb-2`}
                     >
                       {currentTab.name}
                     </div>
@@ -228,7 +228,7 @@ export default function MarketPrices() {
               {/* Price List */}
               <div className="flex flex-col justify-center">
                 <div
-                  className={`inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${currentTab.gradient} shadow-md mb-6`}
+                  className={`inline-flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br ${currentTab.gradient} shadow-md mb-6`}
                 >
                   <currentTab.icon className="h-6 w-6 text-white" />
                 </div>
@@ -261,7 +261,7 @@ export default function MarketPrices() {
 
                 <div className="mt-10">
                   <button
-                    className={`inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold text-white shadow-sm bg-gradient-to-r ${currentTab.gradient} hover:opacity-90`}
+                    className={`inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold text-white shadow-sm bg-linear-to ${currentTab.gradient} hover:opacity-90`}
                   >
                     View Detailed {currentTab.name}
                   </button>

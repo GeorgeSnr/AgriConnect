@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bird, Calendar, Cat, CheckCircle2, ChevronDown, Download, Home, MessageCircle, PiggyBank, Shield, TrendingUp } from "lucide-react";
+import { Bird, Calendar, Cat, ChevronDown, Download,MessageCircle, PiggyBank, TrendingUp } from "lucide-react";
 
 // Homepage: app/page.tsx
 export default function LivestockManagement() {
@@ -188,7 +188,7 @@ export default function LivestockManagement() {
   return (
     <>
       {/* HERO - Full Screen */}
-      <section className="relative min-h-screen bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-700 text-white flex items-center">
+      <section className="relative min-h-screen bg-linear-to from-emerald-600 via-teal-600 to-cyan-700 text-white flex items-center">
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative max-w-7xl mx-auto px-3 text-center">
           <div className="flex justify-center mb-4">
@@ -380,7 +380,7 @@ export default function LivestockManagement() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-20 bg-gradient-to-r from-emerald-600 to-teal-700 text-white text-center">
+      <section className="py-20 bg-linear-to from-emerald-600 to-teal-700 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-5xl font-bold mb-8">Start Earning More Today</h2>
           <p className="text-2xl mb-12">Join 120,000+ Ugandan farmers growing with AgriConnect</p>

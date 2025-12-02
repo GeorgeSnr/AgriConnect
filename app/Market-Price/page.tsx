@@ -153,7 +153,7 @@ export default function ConsumerProducts() {
                 <p className="mt-2 text-teal-600 font-bold">{item.price}</p>
                 <p className="mt-2 text-gray-600 text-sm">Market: <span className="font-medium">{item.market}</span></p>
                 <p className="text-gray-600 text-sm">Region: <span className="font-medium">{item.region}</span></p>
-                <button className={`mt-4 w-full text-white py-2 rounded-lg bg-gradient-to-r from-teal-400 to-emerald-600 hover:opacity-90`}>
+                <button className={`mt-4 w-full text-white py-2 rounded-lg bg-linear-to from-teal-400 to-emerald-600 hover:opacity-90`}>
                   View Details
                 </button>
               </div>

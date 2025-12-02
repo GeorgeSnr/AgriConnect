@@ -109,7 +109,7 @@ export default function Header() {
 
       {/* MOBILE NAV PANEL */}
       <div
-        className={`fixed left-4 right-4 top-[64px] z-50 md:hidden transform transition-all duration-250 ${
+        className={`fixed left-4 right-4 top-16 z-50 md:hidden transform transition-all duration-250 ${
           menuOpen
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 -translate-y-3 pointer-events-none"

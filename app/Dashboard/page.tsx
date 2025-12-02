@@ -10,7 +10,6 @@ import {
   TrendingUp,
   MessageCircle,
   User,
-  CloudRain,
   AlertCircle,
   Calendar,
   MapPin,

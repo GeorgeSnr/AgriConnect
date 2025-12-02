@@ -60,7 +60,7 @@ const features: Feature[] = [
   href: "/farm-records",
   title: "Farm Records",
   desc: "Digital logbooks to track inputs, labor, yields, and income in UGX for Ugandan smallholder farms.",
-  img: "https://images.pexels.com/photos/533360/pexels-photo-533360.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800",
+  img: "/records.avif",
   width: 1200,
   height: 800,
 },
@@ -68,7 +68,7 @@ const features: Feature[] = [
     href: "/dashboard",
     title: "Dashboard",
     desc: "Analytics on rainfall patterns, soil health, and cooperative performance.",
-    img: "https://media.istockphoto.com/id/2201032278/photo/agricultural-data.jpg?s=612x612&w=0&k=20&c=LWJ1WU-TxjvRv2bEMIsnV-MgrnFyzUd7bNjJqa--bK0=",
+    img: "https://media.istockphoto.com/id/2173244351/photo/businessman-holding-tablet-with-virtual-farming-map-screen-global-strategy-planning-planning.jpg?s=612x612&w=0&k=20&c=B3EkAhkPDMugW02O6jxCPiGZHpkwAyAJXJT3tZLxrDc=",
     width: 1200,
     height: 800,
   },
@@ -172,7 +172,7 @@ export default function HomePage() {
                   blurDataURL="data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoKAAgAAQAcJaACdLoAAD+3gAAA"
                   sizes="100vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end">
+                <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent flex items-end">
                   <div className="p-5 md:p-8 text-white max-w-xl">
                     <h3 className="text-xl md:text-3xl font-bold mb-1.5 drop-shadow-md">
                       {f.title}

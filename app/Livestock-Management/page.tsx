@@ -188,7 +188,7 @@ export default function LivestockManagement() {
   return (
     <>
       {/* HERO - Full Screen */}
-      <section className="relative min-h-screen bg-linear-to from-emerald-600 via-teal-600 to-cyan-700 text-white flex items-center">
+      <section className="relative min-h-screen bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-700 text-white flex items-center">
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative max-w-7xl mx-auto px-3 text-center">
           <div className="flex justify-center mb-4">

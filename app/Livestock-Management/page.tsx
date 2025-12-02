@@ -380,7 +380,7 @@ export default function LivestockManagement() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-20 bg-linear-to from-emerald-600 to-teal-700 text-white text-center">
+      <section className="py-20 bg-linear-to-r from-emerald-600 to-teal-700 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-5xl font-bold mb-8">Start Earning More Today</h2>
           <p className="text-2xl mb-12">Join 120,000+ Ugandan farmers growing with AgriConnect</p>
